@@ -1,0 +1,70 @@
+#inp1{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+body{
+    background-color: blueviolet;
+    align-items: center;
+}
+.heading{
+    font-size: 30px;
+padding-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+  padding-right: 400px;
+}
+#btn1{
+    border: 2px solid black;
+    border-radius: 20px;
+    color: rgb(42, 165, 99);
+    background-color: brown;
+    width: 80px;
+}
+.container{
+    margin: 100px;
+    text-align: center;
+    padding-left: 430px;
+    padding-top: -10px;
+   align-items: center;
+}
+.Todoinput{
+padding-right: 300px;
+display: flex;
+
+   
+}
+
+
+
+li{
+    list-style-type: none;
+    border: 1px solid yellow;
+    background-color: turquoise;
+    display: flex;
+    width:260px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    width: 20px;
+    color: darkred;
+    border: 1px solid black;
+    cursor: pointer;
+}
+li{
+    margin: 10px;
+}
+span:hover{
+    background-color: violet;
+    color: wheat;
+   width: 20px;
+}
+
+li:hover{
+    color:red;
+    
+    
+  }
+ 
